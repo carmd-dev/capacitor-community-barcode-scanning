@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-mlkit/barcode-scanning",
+  "name": "@capacitor-community/barcode-scanning",
   "version": "5.3.0",
   "description": "Capacitor plugin for ML Kit Barcode Scanning.",
   "main": "dist/plugin.cjs.js",
@@ -11,28 +11,18 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorMlkitBarcodeScanning.podspec"
+    "CapacitorCommunityBarcodeScanning.podspec"
   ],
   "author": "Robin Genz <mail@robingenz.dev>",
   "license": "Apache-2.0",
   "homepage": "https://capawesome.io/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/capawesome-team/capacitor-mlkit.git"
+    "url": "git+https://github.com/carmd-dev/capacitor-community-barcode-scanning.git"
   },
   "bugs": {
-    "url": "https://github.com/capawesome-team/capacitor-mlkit/issues"
+    "url": "https://github.com/carmd-dev/capacitor-community-barcode-scanning/issues"
   },
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/capawesome-team/"
-    },
-    {
-      "type": "opencollective",
-      "url": "https://opencollective.com/capawesome"
-    }
-  ],
   "keywords": [
     "capacitor",
     "plugin",
