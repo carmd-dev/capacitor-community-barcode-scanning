@@ -348,7 +348,7 @@
       },
       {
         "name": "addListener",
-        "signature": "(eventName: 'barcodeScanned', listenerFunc: (event: BarcodeScannedEvent) => void) => Promise<PluginListenerHandle> & PluginListenerHandle",
+        "signature": "(eventName: 'barcodeScanned', listenerFunc: (event: BarcodeScannedEvent) => void) => Promise<PluginListenerHandle>",
         "parameters": [
           {
             "name": "eventName",
@@ -361,7 +361,7 @@
             "type": "(event: BarcodeScannedEvent) => void"
           }
         ],
-        "returns": "Promise<PluginListenerHandle> & PluginListenerHandle",
+        "returns": "Promise<PluginListenerHandle>",
         "tags": [
           {
             "name": "since",
@@ -377,7 +377,7 @@
       },
       {
         "name": "addListener",
-        "signature": "(eventName: 'scanError', listenerFunc: (event: ScanErrorEvent) => void) => Promise<PluginListenerHandle> & PluginListenerHandle",
+        "signature": "(eventName: 'scanError', listenerFunc: (event: ScanErrorEvent) => void) => Promise<PluginListenerHandle>",
         "parameters": [
           {
             "name": "eventName",
@@ -390,7 +390,7 @@
             "type": "(event: ScanErrorEvent) => void"
           }
         ],
-        "returns": "Promise<PluginListenerHandle> & PluginListenerHandle",
+        "returns": "Promise<PluginListenerHandle>",
         "tags": [
           {
             "name": "since",
@@ -406,7 +406,7 @@
       },
       {
         "name": "addListener",
-        "signature": "(eventName: 'googleBarcodeScannerModuleInstallProgress', listenerFunc: (event: GoogleBarcodeScannerModuleInstallProgressEvent) => void) => Promise<PluginListenerHandle> & PluginListenerHandle",
+        "signature": "(eventName: 'googleBarcodeScannerModuleInstallProgress', listenerFunc: (event: GoogleBarcodeScannerModuleInstallProgressEvent) => void) => Promise<PluginListenerHandle>",
         "parameters": [
           {
             "name": "eventName",
@@ -419,7 +419,7 @@
             "type": "(event: GoogleBarcodeScannerModuleInstallProgressEvent) => void"
           }
         ],
-        "returns": "Promise<PluginListenerHandle> & PluginListenerHandle",
+        "returns": "Promise<PluginListenerHandle>",
         "tags": [
           {
             "name": "since",

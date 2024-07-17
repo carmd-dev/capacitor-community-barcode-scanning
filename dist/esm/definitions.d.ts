@@ -172,7 +172,7 @@ export interface BarcodeScannerPlugin {
      *
      * @since 0.0.1
      */
-    addListener(eventName: 'barcodeScanned', listenerFunc: (event: BarcodeScannedEvent) => void): Promise<PluginListenerHandle> & PluginListenerHandle;
+    addListener(eventName: 'barcodeScanned', listenerFunc: (event: BarcodeScannedEvent) => void): Promise<PluginListenerHandle>;
     /**
      * Called when an error occurs during the scan.
      *
@@ -180,7 +180,7 @@ export interface BarcodeScannerPlugin {
      *
      * @since 0.0.1
      */
-    addListener(eventName: 'scanError', listenerFunc: (event: ScanErrorEvent) => void): Promise<PluginListenerHandle> & PluginListenerHandle;
+    addListener(eventName: 'scanError', listenerFunc: (event: ScanErrorEvent) => void): Promise<PluginListenerHandle>;
     /**
      * Called when the Google Barcode Scanner module is installed.
      *
@@ -188,7 +188,7 @@ export interface BarcodeScannerPlugin {
      *
      * @since 5.1.0
      */
-    addListener(eventName: 'googleBarcodeScannerModuleInstallProgress', listenerFunc: (event: GoogleBarcodeScannerModuleInstallProgressEvent) => void): Promise<PluginListenerHandle> & PluginListenerHandle;
+    addListener(eventName: 'googleBarcodeScannerModuleInstallProgress', listenerFunc: (event: GoogleBarcodeScannerModuleInstallProgressEvent) => void): Promise<PluginListenerHandle>;
     /**
      * Remove all listeners for this plugin.
      *
